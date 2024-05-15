@@ -3,10 +3,10 @@ import { lazy, Suspense } from "react";
 import Layout from "../Layout/Layout";
 import "./App.css";
 
-const HomePage = lazy(() => import("../../page/HomePage/HomePage"));
-const MoviesPage = lazy(() => import("../../page/MoviesPage/MoviesPage"));
-const MovieDetailsPage = lazy(() => import("../../page/MovieDetailPage/MovieDetailPage"));
-const NotFoundPage = lazy(() => import("../../page/NotFoundPage/NotFoundPage") );
+const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
+const MoviesPage = lazy(() => import("../../pages/MoviesPage/MoviesPage"));
+const MovieDetailsPage = lazy(() => import("../../pages/MovieDetailPage/MovieDetailPage"));
+const NotFoundPage = lazy(() => import("../../pages/NotFoundPage/NotFoundPage") );
 const MovieReviews = lazy(() => import("../MovieReviews/MovieReviews"));
 const MovieCast = lazy(() => import("../MovieCast/MovieCast"));
 
